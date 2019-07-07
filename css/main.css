@@ -1,0 +1,165 @@
+body {
+    padding: 0px; 
+    margin: 0px; 
+}
+
+.nav-item {
+    margin-left: 30px; 
+    margin-right: 30px; 
+    border-top: 3px solid rgba(246, 246, 246, 0);
+    font-size: 1.2rem;  
+ 
+}
+h1.logo {
+    font-family: 'Noto Sans HK', sans-serif; 
+    font-weight: 300; 
+    color: white; 
+}
+.bold {
+    font-weight: 700; 
+}
+.jumbo-section {
+    margin-top: 100px; 
+    position: relative; 
+
+}
+
+#main {
+    background-color: rgba(77, 73, 64, 0.319); 
+    margin: 0px; 
+    padding: 0px; 
+    position: relative; 
+    min-height: 100vh;
+}
+#logo_container{
+    padding-top: 10px; 
+    margin-bottom: 30px; 
+}
+.main-header{
+    font-family: 'Heebo', sans-serif;
+    color: white; 
+    font-size: 5rem; 
+}
+
+.sub-header {
+    font-family: 'Heebo', sans-serif;
+    color: white; 
+    font-size: 2rem; 
+}
+body {
+    background-image: url('../images/main-background.jpg'); 
+    background-size: cover;
+}
+
+.emblems-cont {
+    text-align: center; 
+    color: white; 
+}
+
+
+.active {
+    border-top: 2px solid white; 
+}
+.navbar-nav {
+    border-top: 2px solid white; 
+}
+.blue-card-cont {
+    display: absolute; 
+    margin-top: 10vh; 
+    bottom: 0; 
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+}
+.nav-link  {
+    color: white!important; 
+}
+.nav-link:hover {
+    color: rgb(59, 59, 59)!important; 
+}
+
+.row {
+    margin-right: 0!important; 
+    margin-left: 0!important; 
+}
+
+/* Drop down Menu --------- ===================================*/
+.drop_down_menu {
+    margin-top: 55px; 
+}
+
+/* Cards */
+nav>ul>li {
+    border-right: 2px solid white; 
+    border-left: 2px solid white; 
+    border-top: 2px solid white; 
+    border-bottom: 2px solid white; 
+    width: 25%; 
+    background: rgb(106, 130, 151, 0.5); 
+    height: 100px; 
+    padding-top: 30px; 
+    margin: 0; 
+    padding-right: 0; 
+    padding-left: 0; 
+}
+
+
+nav>ul {
+    display: flex; 
+    justify-content: space-between; 
+    list-style: none; 
+    text-decoration: none; 
+    color: white; 
+    padding: 0; 
+    position: relative; 
+    height: 100px; 
+    margin: 0; 
+}
+/* Under layer of Cards */
+nav ul li ul li {
+    background-color:rgba(69, 83, 92, 0.493); 
+    position: absolute; 
+    width: 100%; 
+    list-style: none; 
+    top: 100px; 
+    left: 0; 
+    height: 0; 
+    font-size: 0; 
+    transition: height 300ms; 
+}
+
+.spacer {
+    width: 13%; 
+}
+
+nav:hover {
+    border-bottom: none; 
+}
+nav ul li ul {
+    margin-right: 20px; 
+}
+nav ul li:hover ul li {
+    height: 100px; 
+    visibility: visible; 
+    border-bottom: 2px solid white; 
+    border-right: 2px solid white;
+    border-left: 2px solid white; 
+    font-size: 1rem; 
+}
+
+nav ul li:hover {
+    background-color: rgba(69, 83, 92, 0.493); 
+    border-bottom: none; 
+}
+nav ul:hover .spacer {
+    border-bottom: 2px solid white; 
+}
+
+.down-arrow {
+    bottom: 0; 
+    position: absolute; 
+    width: 100%; 
+}
+.flex {
+    display: flex; 
+    justify-content: center; 
+}
